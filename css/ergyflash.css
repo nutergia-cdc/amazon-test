@@ -1,0 +1,146 @@
+.body{background-color: #fff;}
+
+.container{background-color: #fff;}
+
+
+
+#background-animation-container {
+  background-color: #222;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1000;
+}
+
+.col-lg-1 .col-lg-2 .col-lg-3 .col-lg-4 .col-lg-5 .col-lg-6 .col-lg-7 .col-lg-8 .col-lg-9 .col-lg-10 .col-lg-11 .col-lg-12 {margin: 0px;
+padding: 0px;}
+
+.row {margin: 0;
+padding: 0;}
+
+
+img-fluid{margin: 0px;
+padding: 0px;}
+
+.ani-bubble {
+  background-color: blue;
+  border-radius: 75px;
+  height: 150px;
+  position: absolute;
+  top: 100%;
+  width: 150px;
+
+  -webkit-animation: bubblemove 10s linear infinite;
+  -moz-animation: bubblemove 10s linear infinite;
+  animation: bubblemove 10s linear infinite;
+}
+
+@-webkit-keyframes bubblemove {
+  from { top: 100%; }
+  to   { top: -600px; }
+}
+@-moz-keyframes bubblemove {
+  from { top: 100%; }
+  to   { top: -600px; }
+}
+@keyframes bubblemove {
+  from { top: 100%; }
+  to   { top: -600px; } /* This must be far enough off screen to allow the largest object to wander off with enough delay before restarting at the bottom, to be caught by the interval timer */
+}
+
+
+
+
+.edito {
+        
+    border: solid 5px #fff;
+        background-color:#7ab2e1;
+color: #282828; }
+
+.rh {
+        
+    border: solid 2px #941730;
+        background-color:#fff;
+}
+
+.bf {
+        
+    border: solid 2px #00468e;
+        background-color:#fff;
+}
+
+.soc {
+        
+    border: solid 2px #ed6b06;
+        background-color:#fff;
+}
+
+.env {
+        
+    border: solid 2px #95c11f;
+        background-color:#fff;
+}
+
+.qvct{
+        
+    border: solid 2px #b55ea1;
+        background-color:#fff;
+}
+
+.rse {
+        
+    border: solid 2px #289b38;
+        background-color:#fff;
+}
+
+.flex{
+    
+    
+    align-items: flex-end;
+    
+}
+
+.banner-left {
+    
+    padding-top: 50px;
+    padding-left: 50px;
+    
+}
+
+.immunite{color:#0069b4;}
+.vitalite{color:#f28e00;}
+.detox{color:#95c11f;}
+.stress{color:#c586b9;}
+
+
+
+.rounded2
+{
+ margin-top: 10px; 
+ -webkit-border-radius:20px;   
+    padding: 50px;
+    
+}
+
+.roundedimg
+{
+ 
+ -webkit-border-radius:20px;
+    margin-top: 30px;
+     margin-bottom: 30px;
+    
+}
+
+
+
+.superround{
+-moz-border-radius:300px;
+-webkit-border-radius:300px;
+border-radius:300px; 
+     border: solid 5px #fff;
+    
+}
+
